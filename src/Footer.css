@@ -1,0 +1,82 @@
+.footer{
+    position:fixed;
+    bottom:0;
+    height:45px;
+    width:97%;
+    background-color: rgb(32, 32, 36);
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer_left
+{
+    flex:0.3;
+    display:flex;
+    max-width: 200px;
+    justify-content: space-between;
+    color: snow;
+    align-items: center;
+}
+
+.footer_icon:hover,
+.footer_green:hover
+{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.5) !important;
+}
+
+
+
+.footer_songinfo > h4
+{
+    margin-bottom: 5px;
+}
+.footer_songinfo > p
+{
+    font-size:12px;
+}
+
+
+
+
+.footer_green
+{
+ color: #1ed15e;
+}
+.footer_albumlogo
+{
+    width:60px;
+    height:60px;
+    margin-right:15px;
+    object-fit:contain;
+}
+
+.footer_center
+{
+    flex:0.4;
+    padding:0 100px;
+    color:snow;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+.footer_right
+{
+    flex:0.3;
+    display:flex;
+    padding: 0 10px;
+    max-width:200px;
+    align-items:center;
+    justify-content: space-between;
+    color:snow;
+}
+.hov
+{
+    font-size:20px;
+}
+.hov:hover
+{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.5) !important;
+}

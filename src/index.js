@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Datalayer } from './Datalayer';
+import reducer, { initialState } from './reducer';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode initialState reducer>
+  <Datalayer initialState={initialState} reducer={reducer}><App /></Datalayer>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
